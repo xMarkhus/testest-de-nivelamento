@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "7777cc9f-d9ff-4a11-9458-870bcfdd83dd",
+		"name": "api-cadop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32492871"
+	},
+	"item": [
+		{
+			"name": "buscar dados",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/buscar?q=São Luís",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"buscar"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "São Luís"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/buscar?q=São Luís",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"buscar"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "São Luís"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "date",
+							"value": "Sat, 29 Mar 2025 00:48:00 GMT"
+						},
+						{
+							"key": "server",
+							"value": "uvicorn"
+						},
+						{
+							"key": "content-length",
+							"value": "1127"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Registro_ANS\": 365297,\n        \"CNPJ\": 1872588000136,\n        \"Razao_Social\": \"ASSISTÊNCIA ODONTOLÓGICA ESPECIALIZADA LTDA\",\n        \"Nome_Fantasia\": \"RISO PLANO ODONTOLOGICO\",\n        \"Modalidade\": \"Odontologia de Grupo\",\n        \"Logradouro\": \"AVENIDA UNIVERSIDADE\",\n        \"Numero\": \"28\",\n        \"Complemento\": \"QUADRA 03\",\n        \"Bairro\": \"COHAFUMA\",\n        \"Cidade\": \"São Luís\",\n        \"UF\": \"MA\",\n        \"CEP\": 65070650,\n        \"DDD\": \"\",\n        \"Telefone\": \"\",\n        \"Fax\": \"\",\n        \"Endereco_eletronico\": \"planoriso@planoriso.com.br\",\n        \"Representante\": \"MARCIA CHRISTINA VÉRAS BARBOSA\",\n        \"Cargo_Representante\": \"DIRETORA TÉCNICA\",\n        \"Regiao_de_Comercializacao\": 6,\n        \"Data_Registro_ANS\": \"1998-12-22\"\n    },\n    {\n        \"Registro_ANS\": 414981,\n        \"CNPJ\": 7521370000113,\n        \"Razao_Social\": \"INSTITUTO DE ODONTOLOGIA DO MARANHÃO LTDA.\",\n        \"Nome_Fantasia\": \"IOMA\",\n        \"Modalidade\": \"Odontologia de Grupo\",\n        \"Logradouro\": \"RUA GENESIO REGO\",\n        \"Numero\": \"211\",\n        \"Complemento\": \"\",\n        \"Bairro\": \"MONTE CASTELO\",\n        \"Cidade\": \"São Luís\",\n        \"UF\": \"MA\",\n        \"CEP\": 65030650,\n        \"DDD\": 98,\n        \"Telefone\": 32312101,\n        \"Fax\": 32310044,\n        \"Endereco_eletronico\": \"ioma@elo.com.br\",\n        \"Representante\": \"WELLINGTON JOSE ALVES NUNES\",\n        \"Cargo_Representante\": \"DIR TEC SAUDE E ADMINISTRATIVO\",\n        \"Regiao_de_Comercializacao\": 6,\n        \"Data_Registro_ANS\": \"2004-10-29\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
