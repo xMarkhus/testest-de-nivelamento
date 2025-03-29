@@ -33,17 +33,25 @@ Este teste tem como objetivo a extração automática de documentos em PDF do si
 
 1️⃣ **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio/test1_web_scraping
+git clone https://github.com/xMarkhus/testest-de-nivelamento.git
+cd testest-de-nivelamento/
 ```
 
-2️⃣ **Instale as dependências**
+2️⃣ **Crie e ative um ambiente virtual**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Para Linux/MacOS
+   venv\Scripts\activate     # Para Windows
+   ```
+
+3️⃣ **Instale as dependências**
 ```bash
 pip install -r requirements.txt
 ```
 
-3️⃣ **Execute o script**
+4️⃣ **Navegue até a pasta e execute o script**
 ```bash
+cd testest-de-nivelamento/teste1_web_scraping/
 python web_scraping.py
 ```
 
@@ -81,18 +89,12 @@ Este teste tem como objetivo a extração, transformação e armazenamento de da
 
 ## 🚀 Como Executar
 
-1️⃣ **Clone o repositório**
+1️⃣ **Entre na pasta onde está localizado o script**
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio/teste2_transform_dados
+cd testest-de-nivelamento/teste2_transform_dados
 ```
 
-2️⃣ **Instale as dependências**
-```bash
-pip install -r requirements.txt  # Caso tenha um arquivo de dependências
-```
-
-3️⃣ **Execute o script**
+2️⃣ **Execute o script**
 ```bash
 python transformacao_dados.py
 ```
@@ -264,25 +266,12 @@ Antes de começar, verifique se você tem as seguintes ferramentas instaladas:
 
 ### Backend (FastAPI)
 
-1. Clone o repositório:
+1️⃣ **Navegue até a pasta do backend:**
    ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <PASTA_DO_REPOSITORIO>/backend
+   cd testest-de-nivelamento/teste4_api/backend
    ```
 
-2. Crie e ative um ambiente virtual:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Para Linux/MacOS
-   venv\Scripts\activate     # Para Windows
-   ```
-
-3. Instale as dependências do backend:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Inicie o servidor FastAPI:
+2️⃣ Inicie o servidor FastAPI:
    ```bash
    uvicorn server:app --reload
    ```
@@ -291,17 +280,17 @@ Antes de começar, verifique se você tem as seguintes ferramentas instaladas:
 
 ### Frontend (Vue.js)
 
-1. Navegue até a pasta do frontend:
+1️⃣ **Navegue até a pasta do frontend:**
    ```bash
-   cd <PASTA_DO_REPOSITORIO>/frontend
+   cd testest-de-nivelameno/teste4_api/frontend
    ```
 
-2. Instale as dependências do frontend:
+2️⃣ **Instale as dependências do frontend:**
    ```bash
    npm install
    ```
 
-3. Inicie o servidor de desenvolvimento:
+3️⃣ **Inicie o servidor de desenvolvimento:**
    ```bash
    npm run dev
    ```
