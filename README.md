@@ -1,9 +1,9 @@
 # Menu de Testes
 
-- [🛠️ Teste 1 - Web Scraping](https://github.com/xMarkhus/testest-de-nivelamento#teste-1---web-scraping)
-- [🔄 Teste 2 - Transformação de Dados](https://github.com/xMarkhus/testest-de-nivelamento#teste-2---transformacao-de-dados)
-- [🗄️ Teste 3 - Banco de Dados](https://github.com/xMarkhus/testest-de-nivelamento#teste-3---banco-de-dados)
-- [🌐 Teste 4 - API](https://github.com/xMarkhus/testest-de-nivelamento#teste-4---api)
+- 🕵️‍♂️ Teste 1 - Web Scraping
+- 🔄 Teste 2 - Transformação de Dados
+- 🗄️ Teste 3 - Banco de Dados
+- 🌐 Teste 4 - API
 
 
 
@@ -106,7 +106,7 @@ python transformacao_dados.py
 
 
 
-# 🗃️ Teste 3: Banco de Dados
+# 🗄️ Teste 3: Banco de Dados
 
 ## Objetivo
 Este teste tem como objetivo criar um banco de dados PostgreSQL, carregar dados a partir de arquivos CSV e realizar consultas analíticas.
@@ -241,7 +241,7 @@ LIMIT 10;
 - psql / PgAdmin
 - SQL para manipulação e análise de dados.
 
-# 🔍 Teste 4 - API
+# 🌐 Teste 4 - API
 
 Este projeto consiste em uma aplicação web que permite a busca de operadoras de saúde em um relatório CSV. O backend foi desenvolvido com **FastAPI** e o frontend com **Vue.js** e **Tailwind CSS**.
 
