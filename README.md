@@ -39,7 +39,7 @@ cd nome-do-repositorio/test1_web_scraping
 
 2️⃣ **Instale as dependências**
 ```bash
-pip install -r requirements.txt  # Caso tenha um arquivo de dependências
+pip install -r requirements.txt
 ```
 
 3️⃣ **Execute o script**
