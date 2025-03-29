@@ -1,9 +1,10 @@
 # Menu de Testes
 
-- [🛠️ Teste 1 - Web Scraping](https://github.com/xMarkhus/testest-de-nivelamento#%EF%B8%8F%EF%B8%8F-teste-1---web-scraping)
-- [🔄 Teste 2 - Transformação de Dados](https://github.com/xMarkhus/testest-de-nivelamento#-teste-2---transforma%C3%A7%C3%A3o-de-dados)
-- [🗄️ Teste 3 - Banco de Dados](https://github.com/xMarkhus/testest-de-nivelamento#%EF%B8%8F-teste-3-banco-de-dados)
-- [🌐 Teste 4 - API](https://github.com/xMarkhus/testest-de-nivelamento#-teste-4---api)
+- [🛠️ Teste 1 - Web Scraping](https://github.com/xMarkhus/testest-de-nivelamento#teste-1---web-scraping)
+- [🔄 Teste 2 - Transformação de Dados](https://github.com/xMarkhus/testest-de-nivelamento#teste-2---transformacao-de-dados)
+- [🗄️ Teste 3 - Banco de Dados](https://github.com/xMarkhus/testest-de-nivelamento#teste-3---banco-de-dados)
+- [🌐 Teste 4 - API](https://github.com/xMarkhus/testest-de-nivelamento#teste-4---api)
+
 
 
 # 🕵️‍♂️ Teste 1 - Web Scraping
